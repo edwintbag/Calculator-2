@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Calculator -->
+  <div class="calculator">
+    <!-- Top Icons -->
+    <div class="top-icons">
+      <span class="icon">⏰</span> 
+      <span class="icon">↻</span> 
+      <span class="icon">📏</span>
+    </div>
+
+    <!-- Display -->
+    <div class="display">
+      <input type="text" id="result" readonly placeholder="0">
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <!-- Top Row -->
+      <button class="btn-clear">C</button>
+      <button class="btn-operator">%</button>
+      <button class="btn-backspace">⌫</button>
+      <button class="btn-operator">÷</button>
+
+      <!-- Number and Operator Grid -->
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button class="btn-operator">×</button>
+
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button class="btn-operator">−</button>
+
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button class="btn-operator">+</button>
+
+      <!-- Bottom Row -->
+      <span class="tilt-icon">↔</span>
+      <button>0</button>
+      <button>.</button>
+      <button class="btn-equals">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
