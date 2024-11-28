@@ -22,3 +22,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+
+
+// Switch to History View
+document.getElementById("history-icon").addEventListener("click", function () {
+  document.getElementById("calculator-view").style.display = "none";
+  document.getElementById("history-view").style.display = "flex";
+});
+
+// Back to Calculator View
+document.getElementById("back-arrow").addEventListener("click", function () {
+  document.getElementById("calculator-view").style.display = "flex";
+  document.getElementById("history-view").style.display = "none";
+});
