@@ -8,10 +8,10 @@
 </head>
 <body>
   <!-- Calculator -->
-  <div class="calculator">
+  <div class="calculator" id="calculator-view">
     <!-- Top Icons -->
     <div class="top-icons">
-      <span class="icon">⏰</span> 
+      <span class="icon" id="history-icon">⏰</span> 
       <span class="icon">↻</span> 
       <span class="icon">📏</span>
     </div>
@@ -52,6 +52,43 @@
       <button class="btn-equals">=</button>
     </div>
   </div>
+
+  <!-- History View -->
+  <div class="history-view" id="history-view" style="display: none;">
+    <!-- Top Icons -->
+    <div class="top-icons">
+      <span class="icon">⏰</span> 
+      <span class="icon">↻</span> 
+      <span class="icon">📏</span>
+    </div>
+
+    <!-- Display -->
+    
+    <!-- Operators -->
+    <div class="history-container">
+    
+    <div class="history-display">
+      <p>No history</p>
+    </div>
+
+    
+    <div class="operators">
+     <button class="btn-operator">%</button>
+      <button class="btn-operator">÷</button>
+      <button class="btn-operator">×</button>
+      <button class="btn-operator">−</button>
+      <button class="btn-operator">+</button>
+      <button class="btn-equals">=</button>
+    </div>
+        
+    </div>
+    </div>
+    
+
+    <!-- Back Arrow -->
+    <button class="back-arrow" id="back-arrow">←</button>
+  </div>
+
   <script src="script.js"></script>
 </body>
-</html>
+  </html>
